@@ -45,6 +45,10 @@ Route::get('/naturaleza', function () {
     return view('nature');
 });
 
+Route::get('/senderismo', function () {
+    return view('senderismo');
+});
+
 Route::get('/cultura', function () {
     return view('culture');
 });
